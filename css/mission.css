@@ -65,7 +65,73 @@
 }
 .mission-container p {
   font-size: 1.51vw;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: 3px;
   margin-bottom: 29px;
+}
+
+/*values container*/
+.values-container {
+  margin-top: 5.1vw;
+}
+.values-container h1 {
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 4.8vw;
+  font-weight: 900;
+  line-height: 72px;
+  margin-bottom: 3.9vw;
+}
+.values-content-container {
+  flex-wrap: wrap;
+}
+.values-content-container > div {
+  padding-right: 7vw;
+  margin-bottom: 4vw;
+  max-height: 12vw;
+}
+.values-content-container .values-title {
+  margin-bottom: 9px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3vw;
+  font-weight: 800;
+  line-height: 72px;
+  color: #9116fe;
+}
+.values-content-container span {
+  font-size: 1.2vw;
+  font-weight: 400;
+}
+
+/*we believe*/
+.we-believe-container .custom-container {
+  background-image: url("../img/mission/mission3.png");
+  background-size: cover;
+  height: 28vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.we-believe-container .custom-container > div {
+  width: 33vw;
+  margin-top: 1vw;
+}
+.we-believe-container img {
+  position: absolute;
+  left: 67vw;
+  margin-top: -1vw  ;
+  width: 11vw;
+}
+.we-believe-container h1 {
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 4.5vw;
+  font-weight: 900;
+  line-height: 72px;
+  margin-bottom: 1vw;
+}
+.we-believe-container p {
+  font-size: 1.2vw;
+  font-weight: 500;
+  width: 90%;
 }
