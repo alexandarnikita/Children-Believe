@@ -166,11 +166,12 @@
   color: #9116fe;
   width: 25%;
   text-align: right;
+  font-size: 1.2vw;
 }
 .today-aims-container .right-part .aim-content {
   padding-left: 4%;
   width: 75%;
-  font-size: 25px;
+  font-size: 1.2vw;
 }
 
 /*help buttons*/
@@ -194,4 +195,226 @@
 }
 .help-buttons-container .custom-container button:nth-child(3) {
   background-color: #9116fe;
+}
+
+@media (max-width: 1199px) {
+  .vision-container .custom-container {
+    padding: 0 2vw;
+  }
+
+  /*mission container*/
+  .mission-container {
+    border-bottom: solid 4px #aaa;
+  }
+  .mission-container .custom-container {
+    padding: 0 2vw;
+  }
+  .mission-container .custom-container .right-part h1 {
+    margin-bottom: 3vw;
+    margin-top: 3vw;
+  }
+
+  /*values container*/
+  .values-container .custom-container {
+    padding: 0 2vw;
+  }
+  .values-content-container > div {
+    padding-right: 3vw;
+  }
+  .values-content-container .values-title img {
+    margin-left: -4vw;
+    margin-top: -5vw;
+  }
+
+  /*we believe*/
+  .we-believe-container .custom-container {
+
+  }
+
+  /*today aims*/
+  .today-aims-container .custom-container {
+    display: block !important;
+  }
+  .today-aims-container .left-part {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 2vw;
+  }
+  .today-aims-container .right-part {
+    width: 100%;
+    max-width: 100%;
+  }
+  .today-aims-container .right-part .aim-container {
+    margin-bottom: 1.5vw;
+  }
+
+  /*help buttons*/
+  .help-buttons-container {
+    padding: 5.7vw 0;
+  }
+  .help-buttons-container .custom-container {
+    display: flex;
+    justify-content: center;
+  }
+  .help-buttons-container .custom-container button {
+    margin: 0 3vw;
+    padding: 1.5vw 3vw;
+    border: none;
+  }
+  .help-buttons-container .custom-container button:first-child {
+    background-color: rgb(256, 106, 75);
+  }
+  .help-buttons-container .custom-container button:nth-child(2) {
+    background-color: #2650f7;
+  }
+  .help-buttons-container .custom-container button:nth-child(3) {
+    background-color: #9116fe;
+  }
+}
+
+@media (max-width: 767px) {
+  .vision-container h1 {
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 15vw;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+  }
+  .vision-container p {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 29px;
+  }
+  .vision-container > div > div {
+    width: 100%;
+  }
+
+  /*mission container*/
+  .mission-container {
+    border: none;
+    height: unset;
+  }
+  .mission-container p {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+  }
+  .mission-container .custom-container{
+    display: block !important;
+  }
+  .mission-container .custom-container img {
+    position: unset;
+    display: block;
+    width: 100vw;
+  }
+  .mission-container .custom-container .left-part {
+    display: none;
+  }
+  .mission-container .custom-container .right-part {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+  .mission-container .custom-container .right-part h1 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    line-height: 10vw;
+    font-size: 20px;
+  }
+
+  /*values container*/
+  .values-container .custom-container {
+    padding: 0 2vw;
+    text-align: center;
+  }
+  .values-content-container > div {
+    padding-right: 3vw;
+    max-height: unset;
+  }
+  .values-content-container .values-title img {
+    margin-left: -3vw;
+    margin-top: -5vw;
+    width: 8vw;
+  }
+  .values-container h1 {
+    letter-spacing: 1px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 10vw;
+    margin-bottom: 20px;
+  }
+  .values-content-container span {
+    font-size: 12px;
+  }
+  .values-content-container .values-title {
+    margin-bottom: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 6vw;
+    color: #9116fe;
+  }
+
+  /*we believe*/
+  .we-believe-container img {
+    position: absolute;
+    left: 83vw;
+    margin-top: 1vw;
+    width: 13vw;
+  }
+  .we-believe-container .custom-container > div {
+    width: 70%;
+    margin-top: 1vw;
+  }
+  .we-believe-container h1 {
+    letter-spacing: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 4.5vw;
+    font-weight: 900;
+    line-height: 10vw;
+    margin-bottom: 0;
+  }
+  .we-believe-container p {
+    font-size: 11px;
+    font-weight: 500;
+    width: 90%;
+    line-height: 13px;
+  }
+  .today-aims-container .right-part .aim-content {
+    font-size: 12px;
+  }
+
+  /*today aims*/
+  .today-aims-container .right-part .aim-heading {
+    font-size: 12px;
+  }
+
+  /*help buttons*/
+  .help-buttons-container {
+    padding: 5.7vw 0;
+  }
+  .help-buttons-container .custom-container {
+    display: flex;
+    justify-content: center;
+  }
+  .help-buttons-container .custom-container button {
+    margin: 0 3vw;
+    padding: 1.5vw 3vw;
+    border: none;
+  }
+  .help-buttons-container .custom-container button:first-child {
+    background-color: rgb(256, 106, 75);
+  }
+  .help-buttons-container .custom-container button:nth-child(2) {
+    background-color: #2650f7;
+  }
+  .help-buttons-container .custom-container button:nth-child(3) {
+    background-color: #9116fe;
+  }
 }

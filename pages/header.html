@@ -1,0 +1,133 @@
+<html>
+<title>Bootstrap 4 Example</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Bowlby+One' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:700' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Archivo+Black|Bowlby+One|Bowlby+One+SC|Fjalla+One|IM+Fell+DW+Pica|Knewave|Lato:300,400,700|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i|Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i,900,900i|Schoolbell&amp;display=swap&amp;subset=latin-ext" rel="stylesheet">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+<!--<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Knewave"/>-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<body>
+<div class="header-section">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top custom-navbar">
+    <div class="custom-container">
+      <a class="navbar-brand" href="#">
+        <img src="../img/home/logo.png"/>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              ABOUT US
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Link 1</a>
+              <a class="dropdown-item" href="#">Link 2</a>
+              <a class="dropdown-item" href="#">Link 3</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">STORIES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FOR DORNORS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">GIFT CATALOGUE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SPONSOR A CHILD</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa fa-search"></i></a>
+            <div class="custom-dropdown-menu">
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Search">
+                <div class="input-group-append">
+                  <button class="btn btn-success" type="submit">Go</button>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!--<div class="contact-part">-->
+        <!--<i class="fa fa-search"></i>-->
+        <!--<div class="custom-dropdown-menu">-->
+          <!--<div class="input-group mb-3">-->
+            <!--<input type="text" class="form-control" placeholder="Search">-->
+            <!--<div class="input-group-append">-->
+              <!--<button class="btn btn-success" type="submit">Go</button>-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</div>-->
+
+        <!--<i class="fas fa-shopping-basket"></i>-->
+        <!--<i class="fa fa-phone"></i>-->
+
+        <!--<button  type="button" class="btn btn-light">SUPPORT</button>-->
+      <!--</div>-->
+    </div>
+  </nav>
+</div>
+</body>
+
+<style>
+  .custom-navbar {
+    background-color: #9013fe;
+    padding: 55px 81px 50px;
+    font-size: 1rem;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar-container {
+    display: flex;
+  }
+  .navbar-container ul li a {
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    margin: 0 10px;
+  }
+
+  .header-section .contact-part {
+    display: flex;
+    align-items: center;
+  }
+  .header-section .contact-part i {
+    margin: 0 14px;
+    transform: rotate(90deg);
+    cursor: pointer;
+  }
+  .header-section .contact-part .fa-shopping-basket {
+    font-family: 'icomoon' !important;
+    transform: none;
+  }
+  .header-section .contact-part .fa-shopping-basket:before {
+    content: "\e95c";
+  }
+  .header-section .contact-part button {
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 4px 16px;
+    color: #9116fe;
+  }
+  .custom-dropdown-menu {
+    display: none;
+  }
+</style>
+</html>
