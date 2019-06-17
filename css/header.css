@@ -26,8 +26,8 @@
   margin-right: 5px;
   font-size: 14px;
   font-weight: 600;
-  padding: 28px 5px 13px;
-  max-height: 62px;
+  padding: 32px 5px 17px;
+  max-height: 70px;
 }
 .navbar-dark .navbar-nav .nav-link {
   color: white;
@@ -53,7 +53,9 @@
 }
 .custom-sub-dropdown-menu a {
   color: #901bfe;
-
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
 }
 .custom-sub-dropdown-menu a:hover {
   color: black;
@@ -63,6 +65,12 @@
 .contact-part > a {
   padding: 10px 5px 10px !important;
   margin-top: 20px !important;
+}
+.contact-part .fa-search {
+  transform: rotate(83deg);
+}
+.contact-part .fa-phone {
+  transform: rotate(95deg);
 }
 .serach-btn-container a {
   padding: 22px 3px !important;
@@ -88,7 +96,7 @@
 .custom-dropdown-menu button {
   margin: 0 !important;
   width: 30px !important;
-  font-size: 16px !important;
+  font-size: 16px;
   padding: 5px 43px 0 21px !important;
   text-align: center;
   color: white;
@@ -103,5 +111,42 @@
   }
   .custom-sub-dropdown-menu {
     position: unset;
+  }
+  .custom-sub-dropdown-menu.active {
+    position: unset;
+    display: block;
+    background-color: #901bfe;
+    color: white;
+  }
+  .custom-sub-dropdown-menu a {
+    text-align: center;
+    color: #ccc;
+    font-size: 15px;
+  }
+  .serach-btn-container button {
+    font-size: 20px;
+  }
+
+  .custom-navbar ul > li > a {
+    margin-right: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    text-align: center;
+  }
+  .contact-part > a {
+    padding: 10px !important;
+  }
+  .serach-btn-container a {
+    padding: 10px !important;
+  }
+  .custom-dropdown-menu {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .header-section {
+    padding: 0 15px;
   }
 }

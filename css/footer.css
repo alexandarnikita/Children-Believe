@@ -360,7 +360,7 @@
 @media (max-width: 767px) {
   /*footer mobile style*/
   .footer-section {
-    margin-top: 30px;
+    margin-top: 0;
   }
 
   .footer-section .footer-top .right-part .icon-container {

@@ -568,16 +568,6 @@
 /*responsive style for tablet*/
 @media (max-width: 1199px) {
 
-  .contact-part {
-    font-size: 20px;
-    display: flex;
-    border: none !important;
-    width: 100% !important;
-    justify-content: flex-end;
-    margin-top: 0;
-    padding: 0 !important;
-  }
-
   .image-section {
     height: 525px;
   }

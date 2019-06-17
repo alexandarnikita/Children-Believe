@@ -109,8 +109,8 @@
 
 /*we believe*/
 .we-believe-container .custom-container {
-  background-image: url("../img/mission/mission3.png");
-  background-size: cover;
+  /*background-image: url("../img/mission/mission3.png");*/
+  /*background-size: cover;*/
   height: 28vw;
   display: flex;
   justify-content: center;
@@ -120,7 +120,15 @@
   width: 33vw;
   margin-top: 1vw;
 }
-.we-believe-container img {
+.we-believe-container > div > div {
+  z-index: 1;
+}
+.we-believe-container .back-img {
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+}
+.we-believe-container .mark-img {
   position: absolute;
   left: 70vw;
   margin-top: -1vw;
@@ -273,21 +281,24 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
+  .vision-container {
+    height: 390px;
+  }
   .vision-container h1 {
     letter-spacing: 1px;
     font-family: "Montserrat", sans-serif;
-    font-size: 20px;
     font-weight: 900;
-    line-height: 15vw;
     margin-bottom: 1vw;
     margin-top: 1vw;
+    font-size: 45px;
+    line-height: 50px;
+    text-align: center;
   }
   .vision-container p {
-    font-size: 13px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    margin-bottom: 29px;
+    font-size: 1.5rem;
+    letter-spacing: 0;
+    margin: 0;
   }
   .vision-container > div > div {
     width: 100%;
@@ -299,10 +310,10 @@
     height: unset;
   }
   .mission-container p {
-    font-size: 13px;
     font-weight: 500;
-    letter-spacing: 1px;
-    margin-bottom: 0;
+    font-size: 1.5rem;
+    letter-spacing: 0;
+    margin: 0;
   }
   .mission-container .custom-container{
     display: block !important;
@@ -310,7 +321,7 @@
   .mission-container .custom-container img {
     position: unset;
     display: block;
-    width: 100vw;
+    width: 95vw;
   }
   .mission-container .custom-container .left-part {
     display: none;
@@ -324,10 +335,13 @@
     margin-bottom: 10px;
     margin-top: 10px;
     line-height: 10vw;
-    font-size: 20px;
+    font-size: 45px;
   }
 
   /*values container*/
+  .values-container {
+    margin-top: 50px;
+  }
   .values-container .custom-container {
     padding: 0 2vw;
     text-align: center;
@@ -344,28 +358,34 @@
   .values-container h1 {
     letter-spacing: 1px;
     font-family: "Montserrat", sans-serif;
-    font-size: 20px;
+    font-size: 45px;
     font-weight: 900;
     line-height: 10vw;
     margin-bottom: 20px;
   }
   .values-content-container span {
-    font-size: 12px;
+    font-weight: 500;
+    font-size: 1.5rem;
+    letter-spacing: 0;
+    margin: 0;
   }
   .values-content-container .values-title {
     margin-bottom: 0;
     font-family: "Montserrat", sans-serif;
-    font-size: 15px;
+    font-size: 2rem;
     font-weight: 800;
     line-height: 6vw;
     color: #9116fe;
   }
 
   /*we believe*/
-  .we-believe-container img {
+  .we-believe-container {
+    margin-top: 50px;
+  }
+  .we-believe-container .mark-img {
     position: absolute;
     left: 83vw;
-    margin-top: 1vw;
+    margin-top: -2vw;
     width: 13vw;
   }
   .we-believe-container .custom-container > div {
@@ -375,24 +395,36 @@
   .we-believe-container h1 {
     letter-spacing: 0;
     font-family: "Montserrat", sans-serif;
-    font-size: 4.5vw;
+    font-size: 38px;
     font-weight: 900;
     line-height: 10vw;
     margin-bottom: 0;
   }
   .we-believe-container p {
-    font-size: 11px;
-    font-weight: 500;
-    width: 90%;
-    line-height: 13px;
+    font-size: 24px;
+    line-height: 25px;
   }
   .today-aims-container .right-part .aim-content {
     font-size: 12px;
   }
 
   /*today aims*/
+  .today-aims-container {
+    margin-top: 50px;
+  }
+  .today-aims-container .left-part {
+    font-size: 45px;
+    line-height: 43px;
+  }
   .today-aims-container .right-part .aim-heading {
-    font-size: 12px;
+    font-weight: 500;
+    font-size: 1.3rem;
+    letter-spacing: 0;
+  }
+  .today-aims-container .right-part .aim-content {
+    font-weight: 500;
+    font-size: 1.3rem;
+    letter-spacing: 0;
   }
 
   /*help buttons*/
@@ -405,8 +437,10 @@
   }
   .help-buttons-container .custom-container button {
     margin: 0 3vw;
-    padding: 1.5vw 3vw;
+    padding: 10px 20px;
     border: none;
+    font-size: 20px;
+    font-weight: 600;
   }
   .help-buttons-container .custom-container button:first-child {
     background-color: rgb(256, 106, 75);
@@ -416,5 +450,19 @@
   }
   .help-buttons-container .custom-container button:nth-child(3) {
     background-color: #9116fe;
+  }
+}
+
+@media (max-width: 767px) {
+  .we-believe-container p {
+    width: 95%;
+    line-height: 17px;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 0;
+    margin: 0;
+  }
+  .we-believe-container .back-img {
+    height: 265px;
   }
 }

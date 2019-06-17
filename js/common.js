@@ -4,7 +4,9 @@ $(function() {
     $(this).tab('show');
   });
 
-  $('.fa-search').click(function() {
+  $('.search-btn').click(function() {
+    $('.btn-sub-menu').removeClass('active');
+    $('.custom-sub-dropdown-menu').removeClass('active');
     if ($('.custom-dropdown-menu').hasClass('active')) {
       $('.custom-dropdown-menu').removeClass('active');
     } else {
@@ -21,6 +23,7 @@ $(function() {
 
   $('.btn-sub-menu').click(function () {
     $('.custom-sub-dropdown-menu').removeClass('active');
+    $('.custom-dropdown-menu').removeClass('active');
     if ($(this).hasClass('active')) {
       $(this).removeClass('active');
     } else {
