@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84834b71-19b3-4124-b786-1df20bb2d8b6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/mission.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mission.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/mission.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/mission.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,14 +38,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="2573" />
+          <entry key="css" value="2595" />
           <entry key="html" value="1521" />
           <entry key="js" value="153" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="2573" />
+          <entry key="CSS" value="2595" />
           <entry key="HTML" value="1521" />
           <entry key="JavaScript" value="153" />
         </counts>
@@ -82,7 +75,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/header.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
@@ -95,7 +88,7 @@
         <entry file="file://$PROJECT_DIR$/css/mission.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="167">
-              <caret line="418" column="41" selection-start-line="418" selection-start-column="41" selection-end-line="418" selection-end-column="41" />
+              <caret line="390" column="49" lean-forward="true" selection-start-line="390" selection-start-column="49" selection-end-line="390" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -112,11 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/home.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="576" column="18" lean-forward="true" selection-start-line="576" selection-start-column="18" selection-end-line="576" selection-end-column="18" />
+            <state relative-caret-position="449">
+              <caret line="1460" column="25" selection-start-line="1460" selection-start-column="25" selection-end-line="1460" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -150,7 +143,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>custom-dropdown-menu</find>
       <find>bg-dar</find>
       <find>custom-st</find>
       <find>navbardrop</find>
@@ -178,8 +170,9 @@
       <find>.mission-container .custom-container img</find>
       <find>search-btn</find>
       <find>.today-aims-container .right-part .aim-heading</find>
-      <find>contact-part</find>
       <find>fa-sear</find>
+      <find>contact-part</find>
+      <find>.we-believe-container .custom-container &gt; div</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -192,11 +185,11 @@
         <option value="$PROJECT_DIR$/css/common.css" />
         <option value="$PROJECT_DIR$/css/footer.css" />
         <option value="$PROJECT_DIR$/js/common.js" />
-        <option value="$PROJECT_DIR$/css/mission.css" />
-        <option value="$PROJECT_DIR$/css/home.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/pages/mission.html" />
         <option value="$PROJECT_DIR$/css/header.css" />
+        <option value="$PROJECT_DIR$/css/mission.css" />
+        <option value="$PROJECT_DIR$/css/home.css" />
       </list>
     </option>
   </component>
@@ -295,23 +288,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560764858642</updated>
-      <workItem from="1560764862860" duration="38246000" />
+      <workItem from="1560764862860" duration="39108000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38246000" />
+    <option name="totallyTimeSpent" value="39108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12374405" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12374405" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32960895" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -359,20 +352,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/mission.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="418" column="41" selection-start-line="418" selection-start-column="41" selection-end-line="418" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="576" column="18" lean-forward="true" selection-start-line="576" selection-start-column="18" selection-end-line="576" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -408,6 +387,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="68" column="24" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/mission.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="390" column="49" lean-forward="true" selection-start-line="390" selection-start-column="49" selection-end-line="390" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="1460" column="25" selection-start-line="1460" selection-start-column="25" selection-end-line="1460" selection-end-column="25" />
         </state>
       </provider>
     </entry>

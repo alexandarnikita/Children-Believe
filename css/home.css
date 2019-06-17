@@ -1457,4 +1457,7 @@
     font-size: 23px;
     margin-bottom: 10px;
   }
+  .faq-section .btn-container button:first-child {
+    margin: 0 !important;
+  }
 }
