@@ -98,6 +98,10 @@
   line-height: 72px;
   color: #9116fe;
 }
+.values-content-container .values-title img {
+  margin-left: -2.5vw;
+  margin-top: -3vw;
+}
 .values-content-container span {
   font-size: 1.2vw;
   font-weight: 400;
@@ -118,9 +122,9 @@
 }
 .we-believe-container img {
   position: absolute;
-  left: 67vw;
-  margin-top: -1vw  ;
-  width: 11vw;
+  left: 70vw;
+  margin-top: -1vw;
+  width: 13vw;
 }
 .we-believe-container h1 {
   letter-spacing: 1px;
@@ -134,4 +138,60 @@
   font-size: 1.2vw;
   font-weight: 500;
   width: 90%;
+}
+
+/*today aims*/
+.today-aims-container {
+  margin-top: 8vw;
+}
+.today-aims-container .custom-container {
+  border-bottom: solid 4px #aaa;
+  padding-bottom: 4.8vw;
+}
+.today-aims-container .left-part {
+  font-family: "Knewave", cursive;
+  font-size: 5vw;
+  text-align: right;
+  line-height: 5.3vw;
+  color: #9116fe;
+}
+.today-aims-container .right-part {
+  font-size: 27px;
+}
+.today-aims-container .right-part .aim-container {
+  margin-bottom: 1.5vw;
+}
+.today-aims-container .right-part .aim-heading {
+  font-weight: 900;
+  color: #9116fe;
+  width: 25%;
+  text-align: right;
+}
+.today-aims-container .right-part .aim-content {
+  padding-left: 4%;
+  width: 75%;
+  font-size: 25px;
+}
+
+/*help buttons*/
+.help-buttons-container {
+  padding: 5.7vw 0;
+}
+.help-buttons-container .custom-container {
+  display: flex;
+  justify-content: center;
+}
+.help-buttons-container .custom-container button {
+  margin: 0 3vw;
+  padding: 1.5vw 3vw;
+  border: none;
+}
+.help-buttons-container .custom-container button:first-child {
+  background-color: rgb(256, 106, 75);
+}
+.help-buttons-container .custom-container button:nth-child(2) {
+  background-color: #2650f7;
+}
+.help-buttons-container .custom-container button:nth-child(3) {
+  background-color: #9116fe;
 }

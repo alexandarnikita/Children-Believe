@@ -503,6 +503,9 @@
 }
 
 /*faq section*/
+.faq-section {
+  margin-bottom: 90px;
+}
 .faq-section h1 {
   font-size: 87px;
   font-family: Montserrat;
