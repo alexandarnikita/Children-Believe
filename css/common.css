@@ -40,27 +40,6 @@ body {
   width: 77.6vw;
 }
 
-/*header search dropdown*/
-.custom-dropdown-menu {
-  width: 238px;
-  justify-content: space-between;
-  position: absolute;
-  display: none;
-  margin-left: -35px;
-  margin-top: 71px;
-}
-.custom-dropdown-menu.active {
-  display: block;
-}
-.custom-dropdown-menu button {
-  margin: 0 !important;
-  width: 30px !important;
-  font-size: 16px !important;
-  padding: 5px 43px 0 21px !important;
-  text-align: center;
-  color: white;
-}
-
 /*custom component*/
 .custom-btn-normal {
   border-radius: 10px;
