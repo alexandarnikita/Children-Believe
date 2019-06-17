@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Bowlby+One' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Bowlby+One|Bowlby+One+SC|Fjalla+One|IM+Fell+DW+Pica|Knewave|Lato:300,400,700|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i|Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i,900,900i|Schoolbell&amp;display=swap&amp;subset=latin-ext" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <!--<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Knewave"/>-->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/footer.css">
+  <link rel="stylesheet" href="../css/mission.css">
+</head>
+<body>
+
+  <div class="container-fluid content-wrapper">
+
+    <!-- header section -->
+    <div class="d-flex justify-content-between header-section">
+
+      <div class="logo-part">
+      </div>
+
+      <div class="navbar-part">
+        <nav class="navbar navbar-expand-sm">
+          <!-- Links -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">STORIES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FOR DONORS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">GIFT CATALOGUE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SPONSO A CHILD</a>
+            </li>
+          </ul>
+          <i class="fas fa-bars" onclick="openNav()"></i>
+          <div id="myNav" class="overlay d-md-none d-sm-block">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <a href="#homepage.html">ABOUT US</a>
+              <a href="">STORIES</a>
+              <a href="">FOR DONORS</a>
+              <a href="">GIFT CATALOGUE</a>
+              <a href="#sneakers.html">SPONSO A CHILD</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="contact-part">
+        <i class="fa fa-search"></i>
+        <div class="custom-dropdown-menu">
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Search">
+            <div class="input-group-append">
+              <button class="btn btn-success" type="submit">Go</button>
+            </div>
+          </div>
+        </div>
+
+        <i class="fas fa-shopping-basket"></i>
+        <i class="fa fa-phone"></i>
+
+        <button  type="button" class="btn btn-light">SUPPORT</button>
+      </div>
+    </div>
+
+    <!--vision container-->
+    <div class="vision-container">
+      <div class="custom-container">
+        <div>
+          <h1>Our vision.</h1>
+          <p>Changing children’s lives for the better.
+            We dream of a world where every child
+            has a voice and the ability to achieve
+            their full potential.</p>
+        </div>
+      </div>
+    </div>
+
+    <!--mission container-->
+    <div class="mission-container">
+      <div class="custom-container d-flex">
+        <img src="../img/mission/mission2.png"/>
+        <div class="left-part"></div>
+        <div class="right-part">
+          <h1>Our mission.</h1>
+          <p>Children Believe creates a future of hope for
+            children, families, and communities by helping them
+            develop the skills and resources to overcome
+            poverty and pursue justice.
+            For nearly 60 years, we have followed the example
+            of Christ by serving the poor regardless of their
+            faith, cultural, and ethnic background.</p>
+        </div>
+      </div>
+    </div>
+
+    <!--values container-->
+    <div class="values-container">
+      <div class="custom-container">
+        <div class="left-part">
+          <h1>Our values.</h1>
+          <div class="d-flex values-content-container">
+            <div class="col-12 col-md-4">
+              <p class="values-title">results</p>
+            </div>
+            <div class="col-12 col-md-4">
+              <p class="values-title">respect</p>
+            </div>
+            <div class="col-12 col-md-4">
+              <p class="values-title">integrity</p>
+            </div>
+            <div class="col-12 col-md-4">
+              <p class="values-title">teamwork</p>
+            </div>
+            <div class="col-12 col-md-4">
+              <p class="values-title">excellence</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--we believe container-->
+    <div class="we-believe-container">
+      <div class="custom-container">
+        <div>
+          <h1>Our mission.</h1>
+          <p>Changing children’s lives for the better.
+            We dream of a world where every child
+            has a voice and the ability to achieve
+            their full potential.</p>
+        </div>
+      </div>
+    </div>
+
+    <!--today aims container-->
+    <div class="today-aims-container">
+      <div class="custom-container">
+        <div>
+          <h1>Our mission.</h1>
+          <p>Changing children’s lives for the better.
+            We dream of a world where every child
+            has a voice and the ability to achieve
+            their full potential.</p>
+        </div>
+      </div>
+    </div>
+
+    <!--help buttons container-->
+    <div class="help-buttons-container">
+      <div class="custom-container">
+      </div>
+    </div>
+
+    <!-- footer section -->
+    <div class="footer-section">
+      <div class="custom-container">
+        <div class="d-md-flex d-sm-block footer-top">
+          <div class="left-part"><img src="../img/home/logo.png"/></div>
+          <div class="right-part ">
+            <div class="icon-container d-md-block d-sm-flex">
+              <i class="fab fa-facebook-square"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-youtube"></i>
+            </div>
+            <p>Help Spread The Word. Find. Follow. Share</p>
+          </div>
+        </div>
+        <div class="footer-divide-white"></div>
+        <div class="flex footer-middle">
+          <div class="d-md-flex">
+            <div class="footer-middle-left-section d-flex col-md-7">
+              <div class="col-md-3">
+                <p class="footer-middle-list-heading">CONTACT US</p>
+                <p class="address-wrapper">
+                  <span>1200 Denision St,</span>
+                  <span>Markham, ON, </span>
+                  <span>Canada L3R 8G6</span>
+                </p>
+                <p>Contact us</p>
+                <p>FAQs</p>
+              </div>
+              <div class="col-md-3">
+                <p class="footer-middle-list-heading">ABOUT US</p>
+                <p>Accountability</p>
+                <p>Leadership</p>
+                <p>Stories</p>
+                <p>Global offices</p>
+              </div>
+              <div class="col-md-3">
+                <p class="footer-middle-list-heading">FOR DONORS</p>
+                <p>Account update</p>
+                <p>Be an ambassador</p>
+                <p>Lead a fundraiser</p>
+              </div>
+              <div class="col-md-3">
+                <p class="footer-middle-list-heading">DONATE</p>
+                <p>Sponsor a child</p>
+                <p>Help a community</p>
+                <p>Gift catalogue</p>
+              </div>
+            </div>
+            <div class="footer-middle-right-section d-md-flex d-sm-none d-none col-md-5">
+              <div class="footer-middle-right-four">
+                <div>SUBSCRIBE TO<br/>STAY INFORMAED!</div>
+              </div>
+              <span class="footer-arrow"></span>
+              <div class="footer-middle-right-three">
+                <p class="fmrt-bottom-email">yourname@email.com</p>
+                <div class="fmrtb-divide"></div>
+                <div class="fmrt-bottom-text">SEND</div>
+                <div class="d-lg-none d-md-none d-sm-block">SEND</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-divide-white-bottom"></div>
+        <div class="footer-bottom">
+          <div class="footer-bottom-title d-md-flex">
+            <div class="fbt-left col-md-5 d-md-flex">
+              <p>Careers</p>
+              <p>Media centre</p>
+              <p>Privacy statement</p>
+              <p>Legal</p>
+            </div>
+            <div class="fbt-right col-md-7 d-md-flex">
+              <p>*Please note: The Standards Program Trustmark is a mark of imagine Canada used under Licence by Christian Children's Fund of Canada</p>
+            </div>
+          </div>
+          <div class="footer-bottom-logos d-flex">
+            <img class="footer-bottom-logos1" src="../img/home/footer3.png">
+            <img class="footer-bottom-logos2" src="../img/home/footer1.png">
+            <img class="footer-bottom-logos3" src="../img/home/footer2.png">
+          </div>
+          <div class="footer-bottom-down-texts">
+            <p>We seek to recognize adn remove the obstacles faced by persons with disabilities. All communications are available in alternative formats upon request.</p>
+            <p>Copyright 2019 - Children Believe. Charitable Registration #10691 8543 RR0001</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+<link href="https://fonts.googleapis.com/css?family=Archivo+Black|Bowlby+One|Bowlby+One+SC|Fjalla+One|IM+Fell+DW+Pica|Knewave|Lato:300,400,700|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i|Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i,900,900i|Schoolbell&amp;display=swap&amp;subset=latin-ext" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script defer="" src="https://i.icomoon.io/public/d51cbecea9/cb-font-icons/svgxuse.js"></script>
+<script src="../js/common.js"></script>
+</html>

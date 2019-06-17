@@ -1,0 +1,71 @@
+
+/*mission*/
+.vision-container {
+  background-image: url(../img/mission/mission1.png);
+  background-size: cover;
+  height: 37vw;
+}
+.vision-container .custom-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.vision-container > div > div {
+  width: 41%;
+  color: white;
+}
+.vision-container h1 {
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 4.8vw;
+  font-weight: 900;
+  line-height: 72px;
+  margin-bottom: 38px;
+  margin-top: 30px;
+}
+.vision-container p {
+  font-size: 1.45vw;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 29px;
+}
+
+/*mission container*/
+.mission-container {
+  height: 38.3vw;
+  border-bottom: solid 4px #aaa;
+}
+.mission-container .custom-container {
+  height: 100%;
+}
+.mission-container .custom-container img {
+  position: absolute;
+  width: 48vw;
+  margin-top: 6.6vw;
+}
+.mission-container .custom-container .left-part {
+  width: 50%;
+}
+.mission-container .custom-container .right-part {
+  width: 50%;
+  margin-left: 8.3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.mission-container h1 {
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 4.8vw;
+  font-weight: 900;
+  line-height: 72px;
+  margin-bottom: 45px;
+  margin-top: 73px;
+}
+.mission-container p {
+  font-size: 1.51vw;
+  font-weight: 600;
+  letter-spacing: 3px;
+  margin-bottom: 29px;
+}

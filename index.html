@@ -13,508 +13,446 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
   <!--<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Knewave"/>-->
 
-
-  <link rel="stylesheet" href="./css/custom.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
-<div class="container-fluid content-wrapper">
+  <div class="container-fluid content-wrapper">
 
-  <!-- header section -->
-  <div class="d-flex justify-content-between header-section">
+    <!-- header section -->
+    <div class="d-flex justify-content-between header-section">
 
-    <div class="logo-part">
+      <div class="logo-part">
+      </div>
+
+      <div class="navbar-part">
+        <nav class="navbar navbar-expand-sm">
+          <!-- Links -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">STORIES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FOR DONORS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">GIFT CATALOGUE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SPONSO A CHILD</a>
+            </li>
+          </ul>
+          <i class="fas fa-bars" onclick="openNav()"></i>
+          <div id="myNav" class="overlay d-md-none d-sm-block">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <a href="#homepage.html">ABOUT US</a>
+              <a href="">STORIES</a>
+              <a href="">FOR DONORS</a>
+              <a href="">GIFT CATALOGUE</a>
+              <a href="#sneakers.html">SPONSO A CHILD</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="contact-part">
+        <i class="fa fa-search"></i>
+        <div class="custom-dropdown-menu">
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Search">
+            <div class="input-group-append">
+              <button class="btn btn-success" type="submit">Go</button>
+            </div>
+          </div>
+        </div>
+
+        <i class="fas fa-shopping-basket"></i>
+        <i class="fa fa-phone"></i>
+
+        <button  type="button" class="btn btn-light">SUPPORT</button>
+      </div>
     </div>
 
-    <div class="navbar-part">
-      <nav class="navbar navbar-expand-sm">
-        <!-- Links -->
-        <ul class="navbar-nav">
+    <!-- image section -->
+    <div class="d-flex justify-content-between image-section">
+      <div class="custom-container">
+        <div class="circle">
+          <div>
+            <p>EVERYTHING</p>
+            <p>WE DO</p>
+            <p>HELPS KIDS</p>
+            <p>HELP THEMSELVES</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- tab-section -->
+    <div class="tab-section">
+      <div class="custom-container">
+        <ul class="nav nav-tabs tab-btn-container">
           <li class="nav-item">
-            <a class="nav-link" href="#">ABOUT US</a>
+            <a class="nav-link active tab-link-1" data-toggle="tab" href="#who">WHO WE ARE</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">STORIES</a>
+            <a class="nav-link tab-link-2" data-toggle="tab" href="#where">WHERE WE WORK</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">FOR DONORS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">GIFT CATALOGUE</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">SPONSO A CHILD</a>
+            <a class="nav-link tab-link-3" data-toggle="tab" href="#what">WHAT WE DO</a>
           </li>
         </ul>
-        <i class="fas fa-bars" onclick="openNav()"></i>
-        <div id="myNav" class="overlay d-md-none d-sm-block">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-          <div class="overlay-content">
-            <a href="#homepage.html">ABOUT US</a>
-            <a href="">STORIES</a>
-            <a href="">FOR DONORS</a>
-            <a href="">GIFT CATALOGUE</a>
-            <a href="#sneakers.html">SPONSO A CHILD</a>
+      </div>
+
+      <!-- Tab panes -->
+      <div class="tab-content-wrapper">
+        <div class="custom-container">
+          <div class="tab-content">
+            <div class="tab-pane active" id="who">
+              <div class="d-flex justify-content-between">
+                <div class="left-pane">
+                  <div>WHO<br/>WE<br/>ARE</div>
+                  <img src="img/home/who.png"/>
+                </div>
+                <div class="right-pane">
+                  <p class="custom-title">Advocates<br/>for children.</p>
+                  <p class="custom-content">We’ve been championing children’s rights for more
+                    than 60 years, thanks to generous supporters and
+                    resourceful partners.</p>
+                  <button type="button" class="btn btn-light custom-btn-normal learn-more-btn">LEARN MORE</button>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="where">
+              <div class="d-flex justify-content-between">
+                <div class="left-pane">
+                  <div>WHERE<br/>WE<br/>WORK</div>
+                  <img src="img/home/where.png"/>
+                </div>
+                <div class="right-pane">
+                  <p class="custom-title">Working around
+                    the world for
+                    children.</p>
+                  <p class="custom-content">We’ve been championing children’s rights for more
+                    than 60 years, thanks to generous supporters and
+                    resourceful partners.</p>
+                  <button type="button" class="btn btn-light custom-btn-normal">LEARN MORE</button>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="what">
+              <div class="d-flex justify-content-between">
+                <div class="left-pane">
+                  <div>WHAT<br/>WE<br/>DO</div>
+                  <img src="img/home/what.png"/>
+                </div>
+                <div class="right-pane">
+                  <p class="custom-title">Commited to
+                    helping children
+                    thrive.</p>
+                  <p class="custom-content">We’ve been championing children’s rights for more
+                    than 60 years, thanks to generous supporters and
+                    resourceful partners.</p>
+                  <button type="button" class="btn btn-light custom-btn-normal">LEARN MORE</button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </nav>
+      </div>
     </div>
 
-    <div class="contact-part">
-      <i class="fa fa-search"></i>
-      <div class="custom-dropdown-menu">
-        <div class="input-group mb-3">
-          <input type="text" class="form-control" placeholder="Search">
-          <div class="input-group-append">
-            <button class="btn btn-success" type="submit">Go</button>
+    <!-- main content section -->
+    <div class="main-content-section">
+      <!--quote part-->
+      <div class="quote-part-wrapper">
+        <div class="custom-container">
+          <div class="quote-part">
+            <p class="quote-part-title">Our supporters<br/>are making a diference</p>
+            <div class="first-quote">“YOU CAN’T IMAGINE</div>
+            <div class="second-quote">how many lives</div>
+            <div class="third-quote">YOU’RE CHANGING.”</div>
+            <p class="fourth-quote">— Sophia, 19, former sponsored child</p>
+          </div>
+          <div class="circle"></div>
+        </div>
+      </div>
+
+      <!--select part-->
+      <div class="select-part">
+        <div class="row custom-container">
+          <div class="buttons-part">
+            <h1>You can help!</h1>
+            <div class="btn-select">
+              <span class="btn-title">SPONSOR A CHILD</span>
+              <span class="btn-content">Help a child get educated</span>
+            </div>
+            <div class="btn-select">
+              <span class="btn-title">MAKE A DONATION</span>
+              <span class="btn-content">Make a donation</span>
+            </div>
+            <div class="btn-select">
+              <span class="btn-title">SPONSOR A COMMUNITY</span>
+              <span class="btn-content">Help support an entire village</span>
+            </div>
+          </div>
+          <div class="img-part">
+            <img src="img/home/select.png"/>
           </div>
         </div>
       </div>
 
-      <i class="fas fa-shopping-basket"></i>
-      <i class="fa fa-phone"></i>
+      <!--status part-->
+      <div class="status-part">
+        <div class="custom-container">
+          <div class="status-wrapper d-flex">
+            <h1><string>Your donations<br/>at work.</string></h1>
+            <div class="status-bottom">
+              <div class="status-component">
+                <p class="font-icons icon-1">
+                </p>
+                <p class="count">43,000+</p>
+                <span class="description">Sponsored children</span>
+              </div>
+              <div class="status-component">
+                <p class="font-icons icon-2">
+                </p>
+                <p class="count">30+</p>
+                <span class="description">Local partners</span>
+              </div>
+              <div class="status-component">
+                <p class="font-icons icon-3">
+                </p>
+                <p class="count">160+</p>
+                <span class="description">Communities</span>
+              </div>
+              <div class="status-component">
+                <p class="font-icons icon-4">
+                </p>
+                <p class="count">700,000+</p>
+                <span class="description">Beneficiaries</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-      <button  type="button" class="btn btn-light">SUPPORT</button>
-    </div>
-  </div>
-
-  <!-- image section -->
-  <div class="d-flex justify-content-between image-section">
-    <div class="custom-container">
-      <div class="circle">
-        <div>
-          <p>EVERYTHING</p>
-          <p>WE DO</p>
-          <p>HELPS KIDS</p>
-          <p>HELP THEMSELVES</p>
+      <!--story part-->
+      <div class="story-part">
+        <div class="custom-container">
+          <h1>INSPIRING STORIES</h1>
+          <div class="d-flex justify-content-between card-container">
+            <div class="card">
+              <img class="card-img-top" src="img/home/card1.png" alt="Card image">
+              <div class="card-body">
+                <h4 class="card-title">Drought resistant seeds for
+                  food security.</h4>
+                <p class="card-text">To improve household food security,
+                  CCFC introduced a project to distribute
+                  drought resistant and high-yielding… </p>
+                <a href="#" class="btn-read-more">READ MORE</a>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="img/home/card2.png" alt="Card image">
+              <div class="card-body">
+                <h4 class="card-title">Celebrating our graduated
+                  communities</h4>
+                <p class="card-text">To improve household food security,
+                  CCFC introduced a project to distribute
+                  drought resistant and high-yielding
+                  seed varieties such as</p>
+                <a href="#" class="btn-read-more">READ MORE</a>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="img/home/card3.png" alt="Card image">
+              <div class="card-body">
+                <h4 class="card-title">Water point construction</h4>
+                <p class="card-text">To improve household food security,
+                  CCFC introduced a project to distribute
+                  drought resistant and high-yielding…</p>
+                <a href="#" class="btn-read-more">READ MORE</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- tab-section -->
-  <div class="tab-section">
-    <div class="custom-container">
-      <ul class="nav nav-tabs tab-btn-container">
-        <li class="nav-item">
-          <a class="nav-link active tab-link-1" data-toggle="tab" href="#who">WHO WE ARE</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link tab-link-2" data-toggle="tab" href="#where">WHERE WE WORK</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link tab-link-3" data-toggle="tab" href="#what">WHAT WE DO</a>
-        </li>
-      </ul>
+    <!-- donation section1 -->
+    <div class="donation-section">
+      <div class="d-flex justify-content-between custom-container">
+        <div class="left-part">
+          <h1>Here’s your<br/>
+            chance to<br/>
+            change the world.</h1>
+          <p>NO PRESSURE</p>
+        </div>
+        <div class="right-part">
+          <div> CHILDREN<br/>BELIEVE</div>
+          <img src="img/home/donation.png"/>
+        </div>
+      </div>
     </div>
 
-    <!-- Tab panes -->
-    <div class="tab-content-wrapper">
+    <!-- donation section2 -->
+    <div class="donation-section2">
+      <div class="d-flex justify-content-between custom-container btn-container">
+        <button type="button" class="btn btn-light btn-select">$25</button>
+        <button type="button" class="btn btn-light btn-select">$50</button>
+        <button type="button" class="btn btn-light btn-select">$75</button>
+        <button type="button" class="btn btn-light btn-select">$100</button>
+        <button type="button" class="btn btn-light btn-select">$200</button>
+        <input type="text" placeholder="$CUSTOM" class="btn btn-light"/>
+        <button type="button" class="btn btn-light btn-donate">DONATE NOW</button>
+      </div>
+    </div>
+
+    <!-- faq section -->
+    <div class="faq-section">
       <div class="custom-container">
-        <div class="tab-content">
-          <div class="tab-pane active" id="who">
-            <div class="d-flex justify-content-between">
-              <div class="left-pane">
-                <div>WHO<br/>WE<br/>ARE</div>
-                <img src="./img/who.png"/>
-              </div>
-              <div class="right-pane">
-                <p class="custom-title">Advocates<br/>for children.</p>
-                <p class="custom-content">We’ve been championing children’s rights for more
-                  than 60 years, thanks to generous supporters and
-                  resourceful partners.</p>
-                <button type="button" class="btn btn-light custom-btn-normal learn-more-btn">LEARN MORE</button>
-              </div>
-            </div>
+        <h1>Still have questions?</h1>
+        <div class="d-flex justify-content-between faq-container">
+          <div class="col-md-3 faq-item">
+            <span>
+              How does child<br/>
+              sponsorship work?
+            </span>
+            <div class="back-letter">F</div>
           </div>
-          <div class="tab-pane" id="where">
-            <div class="d-flex justify-content-between">
-              <div class="left-pane">
-                <div>WHERE<br/>WE<br/>WORK</div>
-                <img src="./img/where.png"/>
-              </div>
-              <div class="right-pane">
-                <p class="custom-title">Working around
-                  the world for
-                  children.</p>
-                <p class="custom-content">We’ve been championing children’s rights for more
-                  than 60 years, thanks to generous supporters and
-                  resourceful partners.</p>
-                <button type="button" class="btn btn-light custom-btn-normal">LEARN MORE</button>
-              </div>
-            </div>
+          <div class="col-md-3 faq-item">
+            <span>
+              How much does<br/>
+              becoming a child sponsor cost?
+            </span>
+            <div class="back-letter">A</div>
           </div>
-          <div class="tab-pane" id="what">
-            <div class="d-flex justify-content-between">
-              <div class="left-pane">
-                <div>WHAT<br/>WE<br/>DO</div>
-                <img src="./img/what.png"/>
-              </div>
-              <div class="right-pane">
-                <p class="custom-title">Commited to
-                  helping children
-                  thrive.</p>
-                <p class="custom-content">We’ve been championing children’s rights for more
-                  than 60 years, thanks to generous supporters and
-                  resourceful partners.</p>
-                <button type="button" class="btn btn-light custom-btn-normal">LEARN MORE</button>
-              </div>
-            </div>
+          <div class="col-md-3 faq-item">
+            <span>
+              How do I know if I am<br/>making a difference?
+            </span>
+            <div class="back-letter">Q</div>
           </div>
+          <div class="col-md-3 faq-item">
+            <span>
+              What if I can’t afford<br/>
+              the monthly amount<br/>
+              but still want to help?
+            </span>
+            <div class="back-letter">S</div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center btn-container">
+          <button type="button" class="btn custom-btn-normal custom-btn-border mr-3 btn-email">EMAIL US</button>
+          <button type="button" class="btn custom-btn-normal custom-btn-fill btn-faq">MORE QUESTIONS</button>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- main content section -->
-  <div class="main-content-section">
-
-    <!--quote part-->
-    <div class="quote-part-wrapper">
+    <!-- footer section -->
+    <div class="footer-section">
       <div class="custom-container">
-        <div class="quote-part">
-          <p class="quote-part-title">Our supporters<br/>are making a diference</p>
-          <div class="first-quote">“YOU CAN’T IMAGINE</div>
-          <div class="second-quote">how many lives</div>
-          <div class="third-quote">YOU’RE CHANGING.”</div>
-          <p class="fourth-quote">— Sophia, 19, former sponsored child</p>
+        <div class="d-md-flex d-sm-block footer-top">
+          <div class="left-part"><img src="img/home/logo.png"/></div>
+          <div class="right-part ">
+            <div class="icon-container d-md-block d-sm-flex">
+              <i class="fab fa-facebook-square"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-youtube"></i>
+            </div>
+            <p>Help Spread The Word. Find. Follow. Share</p>
+          </div>
         </div>
-        <div class="circle"></div>
+        <div class="footer-divide-white"></div>
+        <div class="flex footer-middle">
+          <div class="d-md-flex">
+            <div class="footer-middle-left-section d-flex col-md-7">
+              <div class="col-md-3">
+                <p class="footer-middle-list-heading">CONTACT US</p>
+                <p class="address-wrapper">
+                  <span>1200 Denision St,</span>
+                  <span>Markham, ON, </span>
+                  <span>Canada L3R 8G6</span>
+                </p>
+                <p>Contact us</p>
+                <p>FAQs</p>
+              </div>
+              <div class="col-md-3">
+                <p class="footer-middle-list-heading">ABOUT US</p>
+                <p>Accountability</p>
+                <p>Leadership</p>
+                <p>Stories</p>
+                <p>Global offices</p>
+              </div>
+              <div class="col-md-3">
+                <p class="footer-middle-list-heading">FOR DONORS</p>
+                <p>Account update</p>
+                <p>Be an ambassador</p>
+                <p>Lead a fundraiser</p>
+              </div>
+              <div class="col-md-3">
+                <p class="footer-middle-list-heading">DONATE</p>
+                <p>Sponsor a child</p>
+                <p>Help a community</p>
+                <p>Gift catalogue</p>
+              </div>
+            </div>
+            <div class="footer-middle-right-section d-md-flex d-sm-none d-none col-md-5">
+              <div class="footer-middle-right-four">
+                <div>SUBSCRIBE TO<br/>STAY INFORMAED!</div>
+              </div>
+              <span class="footer-arrow"></span>
+              <div class="footer-middle-right-three">
+                <p class="fmrt-bottom-email">yourname@email.com</p>
+                <div class="fmrtb-divide"></div>
+                <div class="fmrt-bottom-text">SEND</div>
+                <div class="d-lg-none d-md-none d-sm-block">SEND</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-divide-white-bottom"></div>
+        <div class="footer-bottom">
+          <div class="footer-bottom-title d-md-flex">
+            <div class="fbt-left col-md-5 d-md-flex">
+              <p>Careers</p>
+              <p>Media centre</p>
+              <p>Privacy statement</p>
+              <p>Legal</p>
+            </div>
+            <div class="fbt-right col-md-7 d-md-flex">
+              <p>*Please note: The Standards Program Trustmark is a mark of imagine Canada used under Licence by Christian Children's Fund of Canada</p>
+            </div>
+          </div>
+          <div class="footer-bottom-logos d-flex">
+            <img class="footer-bottom-logos1" src="img/home/footer3.png">
+            <img class="footer-bottom-logos2" src="img/home/footer1.png">
+            <img class="footer-bottom-logos3" src="img/home/footer2.png">
+          </div>
+          <div class="footer-bottom-down-texts">
+            <p>We seek to recognize adn remove the obstacles faced by persons with disabilities. All communications are available in alternative formats upon request.</p>
+            <p>Copyright 2019 - Children Believe. Charitable Registration #10691 8543 RR0001</p>
+          </div>
+        </div>
       </div>
     </div>
 
-    <!--select part-->
-    <div class="select-part">
-      <div class="row custom-container">
-        <div class="buttons-part">
-          <h1>You can help!</h1>
-          <div class="btn-select">
-            <span class="btn-title">SPONSOR A CHILD</span>
-            <span class="btn-content">Help a child get educated</span>
-          </div>
-          <div class="btn-select">
-            <span class="btn-title">MAKE A DONATION</span>
-            <span class="btn-content">Make a donation</span>
-          </div>
-          <div class="btn-select">
-            <span class="btn-title">SPONSOR A COMMUNITY</span>
-            <span class="btn-content">Help support an entire village</span>
-          </div>
-        </div>
-        <div class="img-part">
-          <img src="./img/select.png"/>
-        </div>
-      </div>
-    </div>
-
-    <!--status part-->
-    <div class="status-part">
-      <div class="custom-container">
-        <div class="status-wrapper d-flex">
-          <h1><string>Your donations<br/>at work.</string></h1>
-          <div class="status-bottom">
-            <div class="status-component">
-              <p class="font-icons icon-1">
-              </p>
-              <p class="count">43,000+</p>
-              <span class="description">Sponsored children</span>
-            </div>
-            <div class="status-component">
-              <p class="font-icons icon-2">
-              </p>
-              <p class="count">30+</p>
-              <span class="description">Local partners</span>
-            </div>
-            <div class="status-component">
-              <p class="font-icons icon-3">
-              </p>
-              <p class="count">160+</p>
-              <span class="description">Communities</span>
-            </div>
-            <div class="status-component">
-              <p class="font-icons icon-4">
-              </p>
-              <p class="count">700,000+</p>
-              <span class="description">Beneficiaries</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!--story part-->
-    <div class="story-part">
-      <div class="custom-container">
-        <h1>INSPIRING STORIES</h1>
-        <div class="d-flex justify-content-between card-container">
-          <div class="card">
-            <img class="card-img-top" src="./img/card1.png" alt="Card image">
-            <div class="card-body">
-              <h4 class="card-title">Drought resistant seeds for
-                food security.</h4>
-              <p class="card-text">To improve household food security,
-                CCFC introduced a project to distribute
-                drought resistant and high-yielding… </p>
-              <a href="#" class="btn-read-more">READ MORE</a>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="./img/card2.png" alt="Card image">
-            <div class="card-body">
-              <h4 class="card-title">Celebrating our graduated
-                communities</h4>
-              <p class="card-text">To improve household food security,
-                CCFC introduced a project to distribute
-                drought resistant and high-yielding
-                seed varieties such as</p>
-              <a href="#" class="btn-read-more">READ MORE</a>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="./img/card3.png" alt="Card image">
-            <div class="card-body">
-              <h4 class="card-title">Water point construction</h4>
-              <p class="card-text">To improve household food security,
-                CCFC introduced a project to distribute
-                drought resistant and high-yielding…</p>
-              <a href="#" class="btn-read-more">READ MORE</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
-
-  <!-- donation section1 -->
-  <div class="donation-section">
-    <div class="d-flex justify-content-between custom-container">
-      <div class="left-part">
-        <h1>Here’s your<br/>
-          chance to<br/>
-          change the world.</h1>
-        <p>NO PRESSURE</p>
-      </div>
-      <div class="right-part">
-        <div> CHILDREN<br/>BELIEVE</div>
-        <img src="./img/donation.png"/>
-      </div>
-    </div>
-  </div>
-
-  <!-- donation section2 -->
-  <div class="donation-section2">
-    <div class="d-flex justify-content-between custom-container btn-container">
-      <button type="button" class="btn btn-light btn-select">$25</button>
-      <button type="button" class="btn btn-light btn-select">$50</button>
-      <button type="button" class="btn btn-light btn-select">$75</button>
-      <button type="button" class="btn btn-light btn-select">$100</button>
-      <button type="button" class="btn btn-light btn-select">$200</button>
-      <input type="text" placeholder="$CUSTOM" class="btn btn-light"/>
-      <button type="button" class="btn btn-light btn-donate">DONATE NOW</button>
-    </div>
-  </div>
-
-  <!-- faq section -->
-  <div class="faq-section">
-    <div class="custom-container">
-      <h1>Still have questions?</h1>
-      <div class="d-flex justify-content-between faq-container">
-        <div class="col-md-3 faq-item">
-          <span>
-            How does child<br/>
-            sponsorship work?
-          </span>
-          <div class="back-letter">F</div>
-        </div>
-        <div class="col-md-3 faq-item">
-          <span>
-            How much does<br/>
-            becoming a child sponsor cost?
-          </span>
-          <div class="back-letter">A</div>
-        </div>
-        <div class="col-md-3 faq-item">
-          <span>
-            How do I know if I am<br/>making a difference?
-          </span>
-          <div class="back-letter">Q</div>
-        </div>
-        <div class="col-md-3 faq-item">
-          <span>
-            What if I can’t afford<br/>
-            the monthly amount<br/>
-            but still want to help?
-          </span>
-          <div class="back-letter">S</div>
-        </div>
-      </div>
-      <div class="d-flex justify-content-center btn-container">
-        <button type="button" class="btn custom-btn-normal custom-btn-border mr-3 btn-email">EMAIL US</button>
-        <button type="button" class="btn custom-btn-normal custom-btn-fill btn-faq">MORE QUESTIONS</button>
-      </div>
-    </div>
-  </div>
-
-  <!-- footer section -->
-  <div class="footer-section">
-    <div class="custom-container">
-      <div class="d-md-flex d-sm-block footer-top">
-        <div class="left-part"><img src="./img/logo.png"/></div>
-        <div class="right-part ">
-          <div class="icon-container d-md-block d-sm-flex">
-            <i class="fab fa-facebook-square"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-youtube"></i>
-          </div>
-          <p>Help Spread The Word. Find. Follow. Share</p>
-        </div>
-      </div>
-      <div class="footer-divide-white"></div>
-      <div class="flex footer-middle">
-        <div class="d-md-flex">
-          <div class="footer-middle-left-section d-flex col-md-7">
-            <div class="col-md-3">
-              <p class="footer-middle-list-heading">CONTACT US</p>
-              <p class="address-wrapper">
-                <span>1200 Denision St,</span>
-                <span>Markham, ON, </span>
-                <span>Canada L3R 8G6</span>
-              </p>
-              <p>Contact us</p>
-              <p>FAQs</p>
-            </div>
-            <div class="col-md-3">
-              <p class="footer-middle-list-heading">ABOUT US</p>
-              <p>Accountability</p>
-              <p>Leadership</p>
-              <p>Stories</p>
-              <p>Global offices</p>
-            </div>
-            <div class="col-md-3">
-              <p class="footer-middle-list-heading">FOR DONORS</p>
-              <p>Account update</p>
-              <p>Be an ambassador</p>
-              <p>Lead a fundraiser</p>
-            </div>
-            <div class="col-md-3">
-              <p class="footer-middle-list-heading">DONATE</p>
-              <p>Sponsor a child</p>
-              <p>Help a community</p>
-              <p>Gift catalogue</p>
-            </div>
-            <!--<div class="d-md-flex contact-us-container">-->
-              <!--<p class="col-md-3 footer-middle-left-list-title">CONTACT US</p>-->
-              <!--<p class="col-md-3 footer-middle-left-list-title">ABOUT US</p>-->
-              <!--<p class="col-md-3 footer-middle-left-list-title">FOR DONORS</p>-->
-              <!--<p class="col-md-3 footer-middle-left-list-title">DONATE</p>-->
-            <!--</div>-->
-            <!--<div class="d-md-flex d-sm-none d-none footer-middle-left-list">-->
-              <!--<p class="col-md-3">1200 Denision St,</p>-->
-              <!--<a class="col-md-3">Accountability</a>-->
-              <!--<a class="col-md-3">Account update</a>-->
-              <!--<a class="col-md-3">Spoonsor a child</a>-->
-            <!--</div>-->
-            <!--<div class="d-md-flex">-->
-              <!--<div class="col-md-3 d-md-block d-sm-none d-none footer-middle-left-list1">-->
-                <!--<p>Markham, ON,</p>-->
-                <!--<p>Canada L3R 8G6</p>-->
-              <!--</div>-->
-              <!--<div class="d-md-flex d-sm-none d-none footer-middle-left-list2 col-md-9">-->
-                <!--<a class="col-md-4">Leadership</a>-->
-                <!--<a class="col-md-4">Be an ambassador</a>-->
-                <!--<a class="col-md-4">Help a community</a>-->
-              <!--</div>-->
-            <!--</div>-->
-            <!--<div class="d-md-flex d-sm-none d-none footer-middle-left-list2">-->
-              <!--<a class="col-md-3">Cpmtact us</a>-->
-              <!--<a class="col-md-3">Stories</a>-->
-              <!--<a class="col-md-3">Lead a fundraiser</a>-->
-              <!--<a class="col-md-3">Gift catalogue</a>-->
-            <!--</div>-->
-            <!--<div class="d-md-flex d-sm-none d-none footer-middle-left-list2">-->
-              <!--<a class="col-md-3">FAQs</a>-->
-              <!--<a class="col-md-3">Global offices</a>-->
-            <!--</div>-->
-          </div>
-          <div class="footer-middle-right-section d-md-flex d-sm-none d-none col-md-5">
-            <div class="footer-middle-right-four">
-              <div>SUBSCRIBE TO<br/>STAY INFORMAED!</div>
-            </div>
-            <span class="footer-arrow"></span>
-            <div class="footer-middle-right-three">
-              <p class="fmrt-bottom-email">yourname@email.com</p>
-              <div class="fmrtb-divide"></div>
-              <div class="fmrt-bottom-text">SEND</div>
-              <div class="d-lg-none d-md-none d-sm-block">SEND</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="footer-divide-white-bottom"></div>
-      <div class="footer-bottom">
-        <div class="footer-bottom-title d-md-flex">
-          <div class="fbt-left col-md-5 d-md-flex">
-            <p>Careers</p>
-            <p>Media centre</p>
-            <p>Privacy statement</p>
-            <p>Legal</p>
-          </div>
-          <div class="fbt-right col-md-7 d-md-flex">
-            <p>*Please note: The Standards Program Trustmark is a mark of imagine Canada used under Licence by Christian Children's Fund of Canada</p>
-          </div>
-        </div>
-        <div class="footer-bottom-logos d-flex">
-          <img class="footer-bottom-logos1" src="./img/footer3.png">
-          <img class="footer-bottom-logos2" src="./img/footer1.png">
-          <img class="footer-bottom-logos3" src="./img/footer2.png">
-        </div>
-        <div class="footer-bottom-down-texts">
-          <p>We seek to recognize adn remove the obstacles faced by persons with disabilities. All communications are available in alternative formats upon request.</p>
-          <p>Copyright 2019 - Children Believe. Charitable Registration #10691 8543 RR0001</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-</div>
 </body>
 <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Bowlby+One|Bowlby+One+SC|Fjalla+One|IM+Fell+DW+Pica|Knewave|Lato:300,400,700|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i|Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i,900,900i|Schoolbell&amp;display=swap&amp;subset=latin-ext" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script defer="" src="https://i.icomoon.io/public/d51cbecea9/cb-font-icons/svgxuse.js"></script>
-<script>
-  function openNav() {
-    document.getElementById("myNav").style.width = "100%";
-  }
-
-  function closeNav() {
-    document.getElementById("myNav").style.width = "0%";
-  }
-
-  $(function() {
-    $('.nav-tabs a').click(function(){
-      $(this).tab('show');
-    });
-
-    $('.fa-search').click(function() {
-      if ($('.custom-dropdown-menu').hasClass('active')) {
-        $('.custom-dropdown-menu').removeClass('active');
-      } else {
-        $('.custom-dropdown-menu').addClass('active');
-      }
-    });
-
-    $('.btn-select').click(function () {
-      $('.btn-select').each(function () {
-        $(this).removeClass('active');
-      });
-      $(this).addClass('active');
-    })
-  })
-</script>
+<script src="js/common.js"></script>
 </html>
